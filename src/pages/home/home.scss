@@ -1,0 +1,23 @@
+page-home {
+
+}
+.toolbar-background {
+  background-color: #33af2e;
+}
+ion-footer p{
+  text-align: center;
+}
+.logo{
+  height: 90%;
+}
+.logo img{
+  padding-top: 50%;
+}
+ion-input {
+  input {
+    text-align: right;
+    ::-webkit-input-placeholder {
+      text-align: right;
+    }
+  }
+}

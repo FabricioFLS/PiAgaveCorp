@@ -1,0 +1,56 @@
+<!--
+  Generated template for the ResultadoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Resultado</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal">
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  
+    <ion-item>
+        <ion-label>Central:</ion-label> <div item-content id="central" ></div> 
+    </ion-item>
+    <ion-item>
+        <ion-label>Interface: </ion-label> <div item-content id="interface"></div>
+    </ion-item> 
+    <ion-item>
+        <ion-label>Placa Analógica: </ion-label> <div item-content id="placaAnalogica"></div>
+    </ion-item> 
+    <ion-item>
+        <ion-label>Placa Codec: </ion-label> <div item-content id="placaCodec"></div>
+    </ion-item> 
+    <ion-item>
+        <ion-label>Placa Ramal Analógico: </ion-label> <div item-content id="placaRamalAnalogico"></div>
+    </ion-item> 
+    <ion-item>
+        <ion-label>Placa Ramal Digital: </ion-label> <div item-content id="placaRamalDigital"></div>
+    </ion-item> 
+    <ion-item>
+        <ion-label>Placa Ramal Mista: </ion-label> <div item-content id="placaRamalMista"></div>
+    </ion-item> 
+    <ion-item>
+        <ion-label>Placa Troncos GSM: </ion-label> <div item-content id="placaTroncoGsm"></div>
+    </ion-item> 
+
+  <button ion-button block >Adicionar Filial</button>
+  <button ion-button block (click)=onSimulacoesSalvas()>Salvar nos Favoritos</button>
+  <button ion-button block >Compartilhar</button>
+
+</ion-content>
